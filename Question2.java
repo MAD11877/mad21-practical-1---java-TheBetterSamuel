@@ -9,8 +9,13 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-     
-    Scanner in = new Scanner(System.in);
-    double height = in.nextDouble();
+     System.out.print("Enter your height in m: ");
+    Scanner h = new Scanner(System.in);
+    double height = h.nextDouble();
+    System.out.print("Enter your weight in kg: ");
+    Scanner w = new Scanner(System.in);
+    double weight = w.nextDouble();
+    System.out.println("Your height is: " + height + "m");
+    System.out.println("Your weight is: " + weight + "kg");
   }
 }
