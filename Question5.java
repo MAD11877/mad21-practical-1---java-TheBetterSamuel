@@ -56,4 +56,7 @@ public class Question5
     System.out.println("The modal number is " + mode);
   }
  
+<<<<<<< HEAD
+}
+=======
 }
